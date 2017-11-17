@@ -16,10 +16,10 @@ class NewsTableViewController: UITableViewController {
 
     // MARK: Variables and Constant declarations
     let BING_NEWS_SEARCH_URL = "https://api.cognitive.microsoft.com/bing/v7.0/news?category="
-    let BING_SEARCH_KEY = "25c4112c4f4e487bb570b91f51e54157"
+    let BING_SEARCH_KEY = "YOUR BING SEARCH API KEY HERE"
     
     let TEXT_ANALYTICS_URL = "https://eastus.api.cognitive.microsoft.com/text/analytics/v2.0/sentiment"
-    let TEXT_ANALYTICS_KEY = "1f99cac074944eebb8d3d81f0d0f163b"
+    let TEXT_ANALYTICS_KEY = "YOUR TEXT ANALYTICS KEY HERE"
     
     var allNewsItems = [NewsItem]()
     
